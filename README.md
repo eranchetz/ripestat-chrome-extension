@@ -19,7 +19,7 @@ A Chrome extension that **highlights IP addresses** (IPv4/IPv6, including option
 
 ## **Installation (Local Testing)**
 
-1. **Clone** this repository or [download the ZIP](https://github.com/YOUR_USERNAME/ripestat-chrome-extension/archive/refs/heads/main.zip) and unzip:
+1. **Clone** this repository or [download the ZIP](https://github.com/eranchetz/ripestat-chrome-extension/archive/refs/heads/main.zip) and unzip:
    ```bash
    git clone https://github.com/YOUR_USERNAME/ripestat-chrome-extension.git
    ```
