@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Ripestat IP Highlighter",
+  "version": "1.0",
+  "description": "Highlights IP addresses on demand when you click the extension.",
+  
+  // Only ask for permissions needed to inject scripts on the active tab.
+  "permissions": ["activeTab", "scripting"],
+
+  // Remove the "content_scripts" and any "host_permissions" here.
+  // You can keep or remove "optional_host_permissions" if you need them.
+
+  "action": {
+    "default_title": "Ripestat IP Highlighter"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "web_accessible_resources": [
+    {
+      "resources": ["tooltip.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
+

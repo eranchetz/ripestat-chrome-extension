@@ -1,0 +1,50 @@
+.ip-highlight {
+  background-color: #f1f3f5; /* Light gray */
+  border-radius: 3px;
+  padding: 2px 4px;
+  margin: 0 2px; /* small spacing */
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* The actual IP text */
+.ip-text {
+  color: #495057;
+  margin-right: 4px; 
+}
+
+/* The (i) icon */
+.ip-icon {
+  font-size: 0.75em;
+  color: #6c757d;
+  border: 1px solid #6c757d;
+  border-radius: 50%;
+  width: 16px; 
+  height: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.ip-icon:hover {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+/* Tooltip styling */
+.ip-tooltip {
+  position: absolute;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  z-index: 9999;
+  color: #212529;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  max-width: 400px;
+}
+
